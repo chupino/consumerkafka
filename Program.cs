@@ -10,7 +10,7 @@ namespace KafkaConsumerExample
             // Configuración del consumidor
             var config = new ConsumerConfig
             {
-                BootstrapServers = "107.20.21.85:9093",
+                BootstrapServers = "18.208.213.203:9093",
                 GroupId = "test-consumer-group",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
